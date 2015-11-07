@@ -7,13 +7,34 @@
 	
 	<title>Brad's site</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="javascript" href="js/main.js">
+	<script src="js/main.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69816731-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	
 	</head>
 
 	<header>
 
-	<div>
+        <div class="welcome">Welcome, <span class="fullname">First Last</span>
+            <a class="logout">Logout</a>
+        </div>
+
+<form class="loginform" role="loginform" id="loginform">
+<input type="text" class="firstname" placeholder="firstname">
+<input type="text" class="lastname" placeholder="lastname">
+        
+<a class="btn btn-default btn sm">Login</a>
+    
+</form>        
 	
 <p class="thanks">Thanks for visiting Toilet Champion! 
 	
@@ -46,12 +67,12 @@
 
 <div>
 	<a class="mail" href="mailto:brad.laskoski@gmail.com">
-		<img src='img/email-blue.png' style="width: 75px;height: auto;"></a>	
+		<img src='images/email-blue.png' style="width: 75px;height: auto;"></a>	
 
 	 <br>
 
 
-		<img class="phone" src='img/phone.png' style="width: 75px;height: auto;">Call or text me @ (360) 434-2291</a>	
+		<img class="phone" src='images/phone.png' style="width: 75px;height: auto;">Call or text me @ (360) 434-2291</a>	
 
 </div>
 

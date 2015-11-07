@@ -1,10 +1,14 @@
 html {
 	font-family: sans-serif, helvetica;
 	background-color: #494C4D;
+	margin: 0px;
 
 
 }
 
+.headline {
+	margin-left: 525px;
+}
 
 body {
 
@@ -43,7 +47,7 @@ a:hover {
 	background-color: #0D1E8C;
 	border-radius: 5px;
 	padding: 20px;
-	margin: 35px auto 30px 10px;
+	margin: 15px auto 10px 10px;
 	text-align: center;
 
 	
@@ -59,7 +63,7 @@ a:hover {
 .thanks {
 	color: white;
 	font-size: 16px;
-	margin: 50px auto auto auto;
+	margin: 30px auto auto auto;
 	text-align: center;
 
 
@@ -101,20 +105,22 @@ a:hover {
 
 #call {
 	color: white;
-	border: 3px dotted white;
+	background-color: gray;
 	padding: 17px;
-	width: 30%;
+	width: 20%;
 	float: left;
 	margin-top: 35px;
+	text-align: center;
 }
 
 .affordable {
 	color: white;
-	border: 3px dotted white;
+	background-color: gray;
 	padding: 17px;
-	width: 30%;
+	width: 20%;
 	float: right;
 	margin-top: 35px;
+	text-align: center;
 }
  
 .helpful {
